@@ -373,7 +373,7 @@ static LRESULT CALLBACK hb_gt_wvw_EBProc( HWND hWnd, UINT message, WPARAM wParam
             case VK_RETURN:
                if( fMultiline || bAlt || bShift || bCtrl )
                   break;
-               else if( ! fMultiline )
+               else
                {
                   SetFocus( hWndParent );
                   PostMessage( hWndParent, message, wParam, lParam );
