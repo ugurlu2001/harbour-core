@@ -52,10 +52,10 @@ matrix:
       dist: trusty
       sudo: false
       compiler: gcc
-      env: [ HB_CI_THREADS=4, HB_CCSUFFIX=-6 ]
+      env: [ HB_CI_THREADS=4, HB_CCSUFFIX=-7 ]
       addons:
         apt:
-          packages: [ *hb-linux-common, gcc-6, g++-6 ]
+          packages: [ *hb-linux-common, gcc-7, g++-7 ]
           sources: ubuntu-toolchain-r-test
     - os: linux
       dist: trusty
